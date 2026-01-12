@@ -8,6 +8,7 @@
     "docs:dev": "pnpm --filter @oui/docs dev",
     "docs:build": "pnpm --filter @oui/docs build",
     "docs:preview": "pnpm --filter @oui/docs preview",
+    "typecheck": "vue-tsc -p tsconfig.json --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -37,5 +38,6 @@
     "vite": "^7.3.1",
     "vitest": "^4.0.16",
     "vue-tsc": "^3.2.2"
-  }
+  },
+  "packageManager": "pnpm@8.15.1"
 }
